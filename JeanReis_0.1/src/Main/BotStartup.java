@@ -18,9 +18,8 @@ public class BotStartup {
 	public static String[] commanddescript;
 	public static void main(String[] args) throws LoginException, IOException {
 		
-		builder = JDABuilder.createDefault("OTE5MjE3MzI4NjExMjkxMTM3.YbSl2Q.IdigmA7SLIDKef_f3ORaQRaVdZw");
-		//JeanReis ODk3NDA3OTQyMjM4ODAxOTMw.GSZcqm.LHru4t0B09_4HaYBz23Nidw2RmMfUgGo8RmQ2g
-		//Testbot OTE5MjE3MzI4NjExMjkxMTM3.YbSl2Q.IdigmA7SLIDKef_f3ORaQRaVdZw
+		builder = JDABuilder.createDefault("TOKEN HIER EINFÜGEN");
+
 		builder.setActivity(Activity.playing(" 🎵 Musik 🎶"));
 		builder.setStatus(OnlineStatus.ONLINE);
 		
